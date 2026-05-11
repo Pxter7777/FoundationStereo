@@ -25,6 +25,7 @@ dependencies = [
     "transformations",
     "einops",
     "huggingface-hub",
+    "xformers",
 ]
 
 [build-system]
