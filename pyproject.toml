@@ -1,0 +1,35 @@
+[project]
+name = "foundation-stereo"
+version = "0.1.0"
+description = "FoundationStereo: Zero-Shot Stereo Matching"
+requires-python = ">=3.11"
+dependencies = [
+    "torch==2.4.1",
+    "torchvision==0.19.1",
+    "torchaudio==2.4.1",
+    "scikit-image",
+    "omegaconf",
+    "opencv-contrib-python",
+    "imgaug",
+    "ninja",
+    "timm",
+    "albumentations",
+    "scipy",
+    "joblib",
+    "scikit-learn",
+    "ruamel.yaml",
+    "trimesh",
+    "pyyaml",
+    "imageio",
+    "open3d",
+    "transformations",
+    "einops",
+    "huggingface-hub",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.12,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = ["foundation_stereo"]

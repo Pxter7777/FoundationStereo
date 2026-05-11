@@ -200,3 +200,8 @@ We would like to thank Gordon Grigor, Jack Zhang, Karsten Patzwaldt, Hammad Mazh
 
 # Contact
 For commercial inquiries, additional technical support, and other questions, please reach out to [Bowen Wen](https://wenbowen123.github.io/) (bowenw@nvidia.com).
+
+## Simple test command
+```bash
+python scripts/run_demo.py --ckpt_dir ~/ITRI-GraspGen/models/FoundationStereoModels/23-51-11/model_best_bp2.pth
+```
